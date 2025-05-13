@@ -1,0 +1,201 @@
+baseURL: "https://reedrw.github.io"
+languageCode: "en-us"
+title: "Reed Williams"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Menus:
+#   main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Gallery
+    #   url: /gallery
+    #   weight: 2
+
+params:
+  title: "Reed Williams"
+  description: "Computer Science Student and Software Developer"
+  favicon: "/fav.png"
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Reed Williams"
+    disableSearch: false
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Reed Williams."
+    subtitle: "Software Developer and Technology Enthusiast"
+    content: "A passionate computer science graduate with experience in web development, DevOps, and software engineering."
+    image: /images/me.jpg
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/reedrw
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/reed-williams
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    content: |-
+      I am a Computer Science graduate at Appalachian State University with a passion for software development. I have experience in various programming paradigms and technologies, from web development to low-level system programming.
+
+      My technical skills include Java, C/C++, JavaScript, Python, and more. I enjoy solving complex problems and building practical applications.
+    useresume: true
+    skills:
+      enable: true
+      title: "Technical Skills:"
+      items:
+        - "Java"
+        - "C/C++"
+        - "JavaScript"
+        - "Node.js"
+        - "Express"
+        - "SQL"
+        - "PHP"
+        - "Swift"
+        - "HTML/CSS"
+        - "Linux/Unix"
+        - "Git"
+        - "Python"
+        - "Assembly Language"
+        - "Haskell"
+        - "WebSockets"
+
+  experience:
+    enable: true
+    items:
+      - job: "Process Automation Engineer, Intern"
+        company: "Billtrust"
+        companyUrl: "https://www.billtrust.com/"
+        date: "May 2023 - August 2023"
+        content: |-
+          Worked at Billtrust, a billing services company specializing in invoice and remittance processing automation.
+          - Migrated codebases into the company's GitLab instance
+          - Designed and implemented a CI/CD pipeline with secure secret management and automated testing using PyTest
+
+      - job: "Student Peer Tutor"
+        company: "Appalachian State University"
+        companyUrl: "https://studentlearningcenter.appstate.edu/"
+        date: "Sept 2024 - May 2025"
+        content: |-
+          Provided one-on-one tutoring to fellow students in core computer science concepts and programming languages.
+          - Assisted students in debugging code and understanding algorithms
+          - Enhanced communication skills by adapting explanations to diverse learning styles
+
+  education:
+    enable: true
+    items:
+      - title: "Bachelor of Science in Computer Science"
+        school:
+          name: "Appalachian State University"
+          url: "https://www.appstate.edu/"
+        date: "Aug 2021 - May 2025"
+        GPA: "3.66/4.0"
+        content: |-
+          Relevant Coursework:
+          - Object-Oriented Programming (Java)
+          - Relational Databases (SQL)
+          - Web Development (HTML, CSS, JavaScript)
+          - System Programming (C/C++)
+          - Programming Language Design (Haskell)
+          - Assembly Language
+
+  projects:
+    enable: true
+    items:
+      # - title: "Not Drawful - Web-based Drawing Party Game"
+      #   content: "Collaborated with frontend designer to implement game logic through WebSockets. Developed backend with Node.JS, Express, and Socket.io for game coordination and real-time drawing canvas functionality."
+      - title: "Not Drawful"
+        content: "A web-based drawing party game inspired by the Jackbox game 'Drawful'. Collaborated with a frontend designer to implement game logic through WebSockets. Developed the backend using Node.js, Express, and Socket.io for game coordination and real-time drawing canvas functionality."
+        image: "/images/projects/not-drawful.png"
+        badges:
+          - "Node.js"
+          - "Express"
+          - "Socket.io"
+          - "JavaScript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/orssdev/Not-Great-Not-Drawful
+
+      - title: "Hunger and Health Coalition - iOS App"
+        content: "A collaboration with a local nonprofit to develop an iOS app using SwiftUI. Integrated RESTful APIs for real-time data retrieval and implemented a user-friendly interface for easy navigation."
+        image: "/images/projects/hhc.png"
+        badges:
+          - "Swift"
+          - "SwiftUI"
+          - "Alamofire"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/reedrw/hhc-app
+
+  contact:
+    enable: true
+    content: "I'm always interested in new opportunities and collaborations. Feel free to reach out!"
+    btnName: "Email me"
+    btnLink: "mailto:reedrw5601@gmail.com"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/reedrw
+      linkedin: https://linkedin.com/in/reed-williams
