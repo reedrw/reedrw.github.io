@@ -96,7 +96,7 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a Computer Science graduate at Appalachian State University with a passion for software development. I have experience in various programming paradigms and technologies, from web development to low-level system programming.
+      I am a Computer Science graduate from Appalachian State University with a passion for software development. I have experience in various programming paradigms and technologies, from web development to low-level system programming.
 
       My technical skills include Java, C/C++, JavaScript, Python, and more. I enjoy solving complex problems and building practical applications.
     useresume: true
