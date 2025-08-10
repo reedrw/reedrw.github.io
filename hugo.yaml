@@ -128,7 +128,7 @@ params:
         date: "June 2025 - Sept 2025"
         content: |-
           Worked as a Data Engineer intern at Decidio, a startup specializing in improving consumer decision-making through AI-driven insights.
-          - Developed web scraping tools using TypeScript and Playright to gather data from various sources, single-handedly scraping over 100,000 pages
+          - Developed web scraping tools using TypeScript and Playright to gather data from various sources, single-handedly scraping over 20,000 data points
           - Implemented data modeling and ETL processes to transform and store data in a MongoDB database
           - Collaborated with AI experts to integrate scraped data into machine learning models, enhancing the accuracy of consumer insights
 
