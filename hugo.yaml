@@ -125,7 +125,7 @@ params:
     items:
       - job: "Data Engineer, Intern"
         company: "Decidio"
-        date: "June 2025 - Sept 2025"
+        date: "June 2025 - Oct 2025"
         content: |-
           Worked as a Data Engineer intern at Decidio, a startup specializing in improving consumer decision-making through AI-driven insights.
           - Developed web scraping tools using TypeScript and Playright to gather data from various sources, single-handedly scraping over 20,000 data points
