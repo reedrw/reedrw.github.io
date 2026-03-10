@@ -130,7 +130,7 @@ params:
           Worked as a Data Engineer intern at Decidio, a startup specializing in improving consumer decision-making through AI-driven insights.
           - Developed web scraping tools using TypeScript and Playright to gather data from various sources, single-handedly scraping over 20,000 data points
           - Implemented data modeling and ETL processes to transform and store data in a MongoDB database
-          - Collaborated with AI experts to integrate scraped data into machine learning models, enhancing the accuracy of consumer insights
+          - Collaborated with AI experts to integrate learning models into the scraping process, enhancing the flexibility of data aquisition
 
       - job: "Student Peer Tutor"
         company: "Appalachian State University"
